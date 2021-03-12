@@ -251,9 +251,13 @@ transform:scale(1.1);
 /*-----------------estilos de Fondo--------------*/
 .fondo__img{
     width: 100%; 
+    margin: auto;
+    text-align: center;
 }
 .info__fondo{
     position: relative;
+    margin: auto;
+    text-align: center;
 }
 .fondo__titulo {
     color: #fff;
@@ -263,6 +267,7 @@ transform:scale(1.1);
     transform: translateX(-50%) translateY(-50%);
     font-size: 25px;
     text-align: center;
+    margin: auto;
 }
 .fondo__txt {
     color: #fff;
@@ -447,19 +452,14 @@ footer .contenedor {
         margin: auto;
     
     
-    margin: 0px;
+    
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 }
 
-footer{
-    width: auto;
-    background: #202020;
-    color: white;   
-    
-}
+
 
 
 .container-footer-all{
@@ -474,14 +474,9 @@ footer{
     justify-content: space-between;
 }
 
-.colum3peque {
-    visibility: hidden;
-}
 
-.mapa {
-    text-align: center;
-    margin:2% ;
-}
+
+
 
 .colum1{
     max-width: 400px;
@@ -549,14 +544,16 @@ footer{
 .container-footer{
     width: 100%;  
     background: #101010;
+    margin-bottom: 0%;
 }
 
 .footer{
-    max-width: 1200px;
+    max-width: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;  
     padding: 20px;
+    bottom: 0%;
 }
 
 .copyright{
@@ -600,6 +597,53 @@ footer{
 
 
 
+/*NUEVO PIE DE PAGINA*/
+
+#piedepagina2 {
+    
+    background-color: rgb(44, 44, 44);
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.columnapie1 {
+    max-width: auto;
+    
+    margin: 1%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+
+#letraspie {
+    color: white;
+    margin: 2%;
+    text-align: center;
+    
+}
+
+
+.mapa {
+    text-align: center;
+    margin: 2%;
+}
+
+
+#contacto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 4%;
+    
+}
 
 
 
@@ -608,3 +652,60 @@ footer{
 
 
 
+
+
+.mapapa{
+    width: 800px;
+    height: 400px;
+}
+
+
+
+@media (max-width: 640px){
+    .mapapa{
+        width: 400px;
+        height: 500px;
+    }
+    
+    
+}
+
+
+
+#mapaletra {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin-top: 4%;
+    }
+
+
+#titulonegro {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin-top: 4%;
+    }
+
+#textocontenido {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 25px;
+    margin: 2%;
+    text-align: justify;
+}
+
+.imagendinero {
+    text-align: center;
+}
